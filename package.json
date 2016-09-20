@@ -1,0 +1,32 @@
+{
+  "name": "quick-sequelize-practice",
+  "version": "1.0.0",
+  "description": "Getting up to speed with Sequelize",
+  "main": "server/index.js",
+  "scripts": {
+    "compile": "babel server -d compiled",
+    "start": "node compiled/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-kndungu/quick-sequelize-practice.git"
+  },
+  "keywords": [
+    "sequelize",
+    "postgres"
+  ],
+  "author": "Kinuthia Ndung'u",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-kndungu/quick-sequelize-practice/issues"
+  },
+  "homepage": "https://github.com/andela-kndungu/quick-sequelize-practice#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0"
+  }
+}
