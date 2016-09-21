@@ -3,5 +3,8 @@
   "rules": {
     "comma-dangle": 0,
     "arrow-body-style": 0
+  },
+  "env": {
+    "browser": true
   }
 }

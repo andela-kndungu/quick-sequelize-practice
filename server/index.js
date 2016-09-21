@@ -3,9 +3,9 @@ import Sequelize from 'sequelize';
 
 const app = express();
 const sequelize = new Sequelize('postgres://localhost/testing');
-
+app.use(express.static('public'));
 app.get('/', (req, res) => {
-  res.send('Hello World.');
+  res.sendFile('./index.html');
 });
 
 const User = sequelize.define('user', {
